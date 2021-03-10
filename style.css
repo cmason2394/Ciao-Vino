@@ -1,4 +1,12 @@
-p {
-    align-items: center;
-    
+body {
+    background-color: #d6c7c7;
 }
+
+p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d34e4e;
+    font-family: Helvetica;
+}
+
