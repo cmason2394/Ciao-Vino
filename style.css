@@ -12,12 +12,19 @@ html {
     color: #d34e4e;
 }
 
+body {
+    position: relative;
+    min-height: 100%;
+}
+
 main {
     position: relative;
     top: 3rem;
+    bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
-nav ul {
+nav ul, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,5 +67,21 @@ p {
     font-size: 1rem;
     color:#802d2d;
     margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    position: absolute;
+    height: 1rem;
+    bottom: 0;
+    display: none;
+}
+
+footer span {
+    color: #802d2d;
+}
+
+@media only screen and (max-width: 1140px) {
+
 }
 
