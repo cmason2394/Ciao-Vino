@@ -1,3 +1,55 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/italianno/v10/dg4n_p3sv6gCJkwzT6RXiJwo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/tangerine/v12/Iurd6Y5j_oScZZow4VO5srNZi5FN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Della Respira';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/dellarespira/v10/RLp5K5v44KaueWI6iEJQBiGPdf4Yug.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/italiana/v11/QldNNTtLsx4E__B0XQmWaXw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* general styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,17 +57,42 @@
 }
 
 html {
-    background-color: #d6c7c7;
+    background-color: #eee8c0;
     text-align: center;
     font-size: 32px;
-    font-family: Helvetica;
-    color: #d34e4e;
+    font-family: 'Della Respira', Helvetica;
+    color: #c1272d;
 }
 
 body {
     position: relative;
     min-height: 100%;
 }
+
+header h1 {
+    position: relative;
+    top: 2.5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Tangerine', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+p {
+    font-size: 1rem;
+    color:#802d2d;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*navigation bar */
 
 main {
     position: relative;
@@ -34,7 +111,7 @@ nav ul, footer {
     height: 2rem;
     margin-top: 0;
     padding: 0.5rem;
-    background-color:#e26767;
+    background-color: #c1272d;
 }
 
 nav li {
@@ -43,32 +120,54 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: #802d2d;
+    color: #eee8c0;
     font-weight: bold;
     padding: 0.5rem;
+    font-family: 'italianno', cursive;
+    font-size: 1.2rem;
 }
 
-header h1 {
-    position: relative;
-    top: 2.5rem;
+/* hidden things */
+
+.price {
+    display: none;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: bold;
+.services {
+    display: none;
 }
 
-h2 {
-    font-size: 2rem;
-
+.meats {
+    display: none;
 }
 
-p {
-    font-size: 1rem;
-    color:#802d2d;
-    margin: 1rem;
-    padding-bottom: 1rem;
+.cheese {
+    display: none;
 }
+
+/* Menu */
+
+.category {
+    margin: 0.5rem 0;
+    padding: 0.2rem;
+    
+}
+
+.menu h3 {
+    font-family: 'Cinzel', Helvetica;
+    padding-bottom: 0.5rem;
+}
+
+.menu h4 {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5rem;
+}
+
+.menu p {
+    font-size: 0.8rem;
+}
+
+/* footer */
 
 footer {
     position: absolute;
@@ -80,6 +179,8 @@ footer {
 footer span {
     color: #802d2d;
 }
+
+/* media queries, phone-sized screens */
 
 @media only screen and (max-width: 1140px) {
 
