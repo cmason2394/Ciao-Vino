@@ -133,21 +133,9 @@ nav li a {
 
 /* hidden things */
 
-.price {
+.price, #services, #events, .meats, .cheese, #phone {
     display: none;
-}
-
-.services {
-    display: none;
-}
-
-.meats {
-    display: none;
-}
-
-.cheese {
-    display: none;
-}
+} 
 
 /* Photos */
 
@@ -165,17 +153,17 @@ img {
     border: solid #c1272d 0.1rem;
 }
 
-.index #logo {
+#index #logo {
     width: 40%;
     opacity: 0.7;
 }
 
-.index #storefront {
+#index #storefront {
     width: 100%;
     max-width: 25rem;
 }
 
-.background figure {
+#background figure {
     width: 40%;
 }
 
