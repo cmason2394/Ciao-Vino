@@ -82,7 +82,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-
+    padding-bottom: 0.5rem;
 }
 
 p {
@@ -90,6 +90,10 @@ p {
     color:#802d2d;
     margin: 1rem;
     padding-bottom: 1rem;
+}
+
+span {
+    margin: 1rem;
 }
 
 /*navigation bar */
@@ -145,12 +149,56 @@ nav li a {
     display: none;
 }
 
+/* Photos */
+
+figure {
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: solid #c1272d 0.1rem;
+}
+
+.index #logo {
+    width: 40%;
+    opacity: 0.7;
+}
+
+.index #storefront {
+    width: 100%;
+    max-width: 25rem;
+}
+
+.background figure {
+    width: 40%;
+}
+
+#Antonio {
+    float: left;
+}
+
+#Miliscola {
+    float: right;
+    display: none;
+}
+
 /* Menu */
 
 .category {
-    margin: 0.5rem 0;
-    padding: 0.2rem;
-    
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.menu .item {
+    padding-top: 0.7rem;
 }
 
 .menu h3 {
@@ -165,6 +213,16 @@ nav li a {
 
 .menu p {
     font-size: 0.8rem;
+}
+
+#sides h4, #sides p {
+    display: inline;
+}
+
+/* Events */
+
+.link {
+    color: #c1272d;
 }
 
 /* footer */
