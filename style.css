@@ -248,5 +248,9 @@ footer span {
     header h1 {
         top: 4rem;
     }
+
+    main {
+        top: 4rem;
+    }
 }
 
