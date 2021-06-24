@@ -137,7 +137,7 @@ nav li a {
 
 /* hidden things */
 
-.price, #services, #events, .meats, .cheese, #phone {
+.price, #services, #events, .meats, .cheese, #phone, .menu {
     display: none !important;
 } 
 
