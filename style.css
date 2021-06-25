@@ -221,7 +221,24 @@ img {
 
 #contact span {
     display: block;
+    margin: 0.5rem;
 }
+
+.social-media {
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    margin: auto;
+}
+
+.social-media a {
+    margin-right: 0.5rem;
+}
+
+
 
 /* footer */
 
