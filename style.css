@@ -137,7 +137,7 @@ nav li a {
 
 /* hidden things */
 
-#services, #events, .meats, .cheese, #phone, #sides, #pate, #sandwich, #salad, #bruschette, #appetizer {
+#services, #events, .meats, .cheese, #sides, #pate, #sandwich, #salad, #bruschette, #appetizer {
     display: none !important;
 } 
 
