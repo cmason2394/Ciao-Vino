@@ -233,6 +233,9 @@ img {
 
 .social-media {
     font-weight: 800;
+}
+
+.favicons {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
