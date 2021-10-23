@@ -159,7 +159,10 @@ img {
 
 #index #logo {
     width: 40%;
-    opacity: 0.7;
+}
+
+#logo img {
+    border: none;
 }
 
 #index #storefront {
